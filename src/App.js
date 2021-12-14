@@ -12,7 +12,6 @@ import {
   Link
 } from "react-router-dom";
 
-
 function App() {
   const [mode, setMode] = useState('light'); //whether dark mode is enable or not
   const [alert, setAlert] = useState(null);
